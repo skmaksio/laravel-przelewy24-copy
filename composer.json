@@ -1,5 +1,5 @@
 {
-    "name": "devpark/laravel-przelewy24",
+    "name": "skmaksio/laravel-przelewy24-copy",
     "description": "Laravel przelewy24.pl integration",
     "type": "library",
     "require": {
@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Devpark\\Transfers24\\": "src/"
+            "Skmaksio\\Transfers24\\": "src/"
         }
     },
     "autoload-dev": {
@@ -26,7 +26,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Devpark\\Transfers24\\Providers\\Transfers24ServiceProvider"
+                "Skmaksio\\Transfers24\\Providers\\Transfers24ServiceProvider"
             ]
         }
     }
